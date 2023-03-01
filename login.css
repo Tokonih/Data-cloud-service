@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.nav{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .left-nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .left-nav h1 a{
+  font-size: 50px;
+  color: #00a7a7;
+  text-decoration: none;
+}
+
+
+
+.nav .right-nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.nav .right-nav a{
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+
+/* section 1 */
+
+.sec1{
+    height:700px;
+    width: 100%;
+}
+
+.sec1 .sec1-{
+    height: 700px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.sec1-left {
+    height: 500px;
+   width: 45%;
+   margin: auto;
+   border-radius: 70px;
+   background-color: #f3f3f3;
+}
+
+.sec1-left .sub {
+   padding: 30px;
+ }
+
+
+.sec1-left .tick{
+    display: flex;
+    gap: 1rem;
+}
+
+.sec1-left {
+    line-height: 3rem;
+}
+
+.sec1-left{
+    width: 50%;
+}
+
+
+
+.sec1-right{
+    width: 50%;
+    /* line-height: 3rem; */
+}
+
+.sec1-right h1{
+    font-size: 34px;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
+
+.sec1-right h3{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: 
+    #7c8a96;
+    font-size: 15px;
+    padding-bottom: 2rem;
+
+}
+
+.google-{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+.google- hr{
+    size: 05px thin #f3f3f3;
+    width: 20%;
+}
+
+.comp{
+    display: block;
+    width: 99.5%;
+    height: 40px;
+    border-radius: 20px;
+    background-color:  #f3f3f3;
+    border: none;
+}
+
+.comp::placeholder{
+   padding: 10px;
+   text-align: center;
+}
+
+.comp-{
+    padding-bottom: 2rem;
+}
+
+.name{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.name input{
+    width: 50%;
+    display: flex;  
+    height: 40px;
+    background-color:  #f3f3f3;
+    border: none;
+    border-radius: 20px;
+}
+
+.name input::placeholder{
+    padding: 10px;
+}
+
+
+
+
+.sec1-right button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #cceded;
+    color: white;
+    border-radius: 50px;
+}
+
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.but a{
+    text-align: none;
+    text-decoration: none;
+    color: black;
+    line-height: 1.5rem;
+}
+
+/* .sec1-right .but{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* footer */
+

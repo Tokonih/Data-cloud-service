@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.nav{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .left-nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .left-nav h1 a{
+  font-size: 50px;
+  color: #00a7a7;
+  text-decoration: none;
+}
+
+
+
+.nav .right-nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.nav .right-nav a{
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+
+/* section 1 */
+
+.sec1{
+    height:900px;
+    width: 100%;
+}
+
+.sec1 .sec1-{
+    height: 900px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.sec1-left {
+    height: 500px;
+   width: 45%;
+   margin: auto;
+   border-radius: 70px;
+   background-color: #f3f3f3;
+}
+
+.sec1-left .sub {
+   padding: 30px;
+ }
+
+
+.sec1-left .tick{
+    display: flex;
+    gap: 1rem;
+}
+
+.sec1-left {
+    line-height: 3rem;
+}
+
+.sec1-left{
+    width: 50%;
+}
+
+
+
+.sec1-right{
+    width: 50%;
+    text-align: center;
+    /* line-height: 3rem; */
+}
+
+.sec1-right h1{
+    font-size: 35px;
+    padding-bottom: 2rem;
+}
+
+.sec1-right h2{
+    font-size: 30px;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+
+.sec1-right h3{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: 
+    #7c8a96;
+    font-size: 15px;
+    padding-bottom: 2rem;
+
+}
+
+.google-{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+.google- hr{
+    size: 05px thin #f3f3f3;
+    width: 20%;
+}
+
+.comp{
+    display: block;
+    width: 99.5%;
+    height: 40px;
+    border-radius: 20px;
+    background-color:  #f3f3f3;
+    border: none;
+}
+
+.comp::placeholder{
+   padding: 10px;
+}
+
+.name{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.name input{
+    width: 50%;
+    display: flex;  
+    height: 40px;
+    background-color:  #f3f3f3;
+    border: none;
+    border-radius: 20px;
+}
+
+.name input::placeholder{
+    padding: 10px;
+}
+
+.comp-, .name, .name-{
+    padding-bottom: 2rem;
+}
+
+.name-{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+
+.name--:nth-child(1){
+    border:none ;
+    background-color:  #f3f3f3;
+    font-size: 13px;
+}
+
+
+.name--{
+    height: 50px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    border-radius: 10px;
+
+}
+
+.name--:nth-child(2){
+    border: none;
+    line-height: 1.5rem;
+}
+
+
+.name-- a:nth-child(2){
+    display: block;
+    text-decoration: none;
+    color: #00a7a7;
+}
+
+.sec1-right button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #cceded;
+    color: white;
+    border-radius: 50px;
+}
+
+.sec1-right .but{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* footer */
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #00a7a7;
+    color: white;
+}
+
+footer .foot-{
+    height: 500px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+} 
+
+footer .foot-a-1{
+    font-size: 15px;
+}
+
+.foot- .foot-a{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+
+
+.foot-a .cham{
+    margin-bottom: 2rem;
+}
+
+.foot-a ul{
+    height: 500px;
+    width: 100%;
+    /* line-height: 2rem; */
+    list-style: none;
+}
+
+.foot-a ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.product{
+    line-height: 2rem;
+}
+
+.product .product-{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.comp{
+    line-height: 2rem;
+}
+
+.comp .comp-{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sect{
+    line-height: 2rem;
+}
+
+.sect .sect-{
+    font-size: 18px;
+    font-weight: 900;
+}

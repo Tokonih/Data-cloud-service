@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.nav{
+    height: 100px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .left-nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav .left-nav h1 a{
+    text-decoration: none;
+  font-size: 35px;
+  color: #00a7a7;
+}
+
+.nav .left-nav select{
+    font-size: 15px;
+    font-weight: 700;
+    color: #00a7a7;
+    border: none;
+}
+
+.nav .left-nav a{
+    /* font-size: 15px; */
+    font-weight: 700;
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+
+.nav .right-nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.nav .right-nav button{
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+
+/* .nav .right-nav button a{
+    color: white;
+    text-decoration:#00a7a7;
+} */
+
+.login{
+    color: #00a7a7;
+    text-decoration: none;
+}
+
+.try{
+    color: white;
+    text-decoration: none;
+}
+
+.nav .right-nav button:nth-last-of-type(1){
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color:#00a7a7;
+    color: white;
+    font-weight: 900;
+}
+
+
+.nav .right-nav button:nth-last-of-type(2){
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color:white;
+    color:#00a7a7;
+    font-weight: 900;
+    border: 1px solid #00a7a7;
+}
+
+/* section 1 */
+.sec1{
+    height: 200px;
+    width: 100%;
+}
+
+.sec1 .sec1-{
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sec1 .sec1- h1{
+    padding-bottom: 1.5rem;
+}
+
+.sec1 .sec1- p{
+    color: black;
+    line-height: 1.5rem;
+}
+
+.sec1 .sec1- a{
+    text-decoration: none;
+    color: #00a7a7;
+}
+
+/* sectionn 2 */
+.sec2{
+    height: 800px;
+    width: 100%;
+}
+
+
+
+.sec2 .sec2-{
+    height: 750px;
+    width: 50%;
+    margin: auto;
+}
+
+.sec2- h2{
+    padding-bottom: 30px;
+}
+
+.sec2- .comp{
+    display: block;
+    width: 99.5%;
+    height: 40px;
+    border-radius: 20px;
+    background-color:  #f3f3f3;
+    border: none;
+}
+
+.sec2- .comp::placeholder{
+   padding: 10px;
+}
+
+.sec2- .job{
+    display: block;
+    width: 99.5%;
+    height: 40px;
+    background-color:  #f3f3f3;
+    border: none;
+    border-radius: 20px;
+}
+
+.sec2- .job::placeholder{
+    padding: 10px;
+}
+
+.sec2- .name{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.sec2- .name input{
+    width: 50%;
+    display: flex;  
+    height: 40px;
+    background-color:  #f3f3f3;
+    border: none;
+    border-radius: 20px;
+}
+
+.sec2- .name input::placeholder{
+    padding: 10px;
+}
+
+.sec2- .name-{
+    display: flex;
+    /* height: 40px; */
+    border: none;
+}
+
+
+
+.sec2- .name- input{
+    width: 98%;
+    height: 40px;
+    background-color:  #f3f3f3;
+    border-radius: 20px;
+    border-right: none;
+    border: none;
+}
+
+.sec2- .name- input::placeholder{
+    padding: 10px;
+}
+
+.sec2- .name- select{
+    height: 40px;
+    background-color:  #f3f3f3;
+    border: none;
+    border-radius: 20px;
+}
+
+.sec2- .reason input{
+    width: 99.5%;
+    height: 200px;
+    background-color:  #f3f3f3;
+    border: none;
+
+}
+/* 
+.sec2- .reason input::placeholder{
+   padding-bottom: 40px;
+
+} */
+.sec2- .but{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sec2- .but button{
+   padding: 10px 15px;
+   border-radius: 40px;
+   border: none;
+   background-color: #00a7a7;
+   color: white;
+}
+
+.sec2- .comp-, .job-, .name, .name-, .reason{
+    padding-bottom: 2rem;
+}
+
+/* footer */
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #00a7a7;
+    color: white;
+}
+
+footer .foot-{
+    height: 500px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+} 
+
+footer .foot-a-1{
+    font-size: 15px;
+}
+
+.foot- .foot-a{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+
+
+.foot-a .cham{
+    margin-bottom: 2rem;
+}
+
+.foot-a ul{
+    height: 500px;
+    width: 100%;
+    /* line-height: 2rem; */
+    list-style: none;
+}
+
+.foot-a ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.product{
+    line-height: 2rem;
+}
+
+.product .product-{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.comp{
+    line-height: 2rem;
+}
+
+.comp .comp-{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sect{
+    line-height: 2rem;
+}
+
+.sect .sect-{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+footer .foot-b{
+    height: 500px;
+    width: 50%;
+    display: block;
+}
+
+.foot-b .foot-b-1{
+    margin-left: 50%;
+    line-height: 2.5rem;
+}
+
+.foot-b .foot-b-1 button{
+    /* display: flex; */
+    padding: 15px 25px;
+    color:#00a7a7;
+    background-color: white;
+    border-radius: 40px;
+    border: none;
+}
+
+.foot-b-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-top: 200px;
+    margin-left: 0%;
+}
+
+.foot-b-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot-b-2 h1{
+    font-size: 50px;
+}
+
+.m-nav{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .sec1{
+        display: block;
+        margin-bottom: 4rem;
+    }
+
+    .sec2{
+        display: block;
+        width: 700px;
+    }
+
+    .sec2-{
+        display: block;
+        width: 700px;
+        margin: auto;
+    }
+
+    
+    .sec2- .comp-{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    /* .sec2- .comp- input, .job- input {
+        display: block;
+        width: 300px;
+        margin: auto;
+    } */
+}
+
+@media (max-width: 425px) {
+
+    .nav select, a, img{
+        display: none;
+    }
+
+    .right-nav{
+        padding: 5px 10px;
+        display: block;
+    }
+
+    .sec1{
+        display: block;
+        margin-bottom: 7rem;
+    }
+
+    .sec2{
+        display: block;
+        width: 425px;
+        margin: auto;
+    }
+
+    .name{
+        display: block;
+        width: 425px;
+        margin: auto;
+    }
+}
